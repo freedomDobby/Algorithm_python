@@ -1,0 +1,10 @@
+startPoint = 0
+answer = 0
+
+list1 = list(map(int, input().split()))
+
+while startPoint == list1[2]:
+    startPoint = startPoint + list1[0] - list1[1]
+    answer += 1
+
+print(answer)
